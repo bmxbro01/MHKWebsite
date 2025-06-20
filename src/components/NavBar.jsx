@@ -12,9 +12,6 @@ const NavBar = () => {
             <li><Link className="nav-link" to="/contact">Contact</Link></li>
           </ul>
         </nav>
-        <div className="login-container">
-          <Link to="/login" className="login-link"><img src="/src/assets/icons/login.svg" alt="Login" className="login"/></Link>
-        </div>
       </header>
     </>
   );
