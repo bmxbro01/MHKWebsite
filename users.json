@@ -6,5 +6,13 @@
     "password": "$2b$10$rt2huqU0lqz.I0d/gDTyJ.b7u.VWWbFq0k3ILAOtA2842hfQYJncm",
     "role": "user",
     "createdAt": "2025-06-21T01:27:42.022Z"
+  },
+  {
+    "id": 2,
+    "username": "caitlynhoffman",
+    "email": "caitlyn.hoffman98@gmail.com",
+    "password": "$2b$10$Evu11zUcpp25BKrLc6TD.euVVg4BC64YYTzdqGh3YXn729Yd0z.S.",
+    "role": "user",
+    "createdAt": "2025-06-21T02:41:21.247Z"
   }
 ]
