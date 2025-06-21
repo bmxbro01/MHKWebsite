@@ -204,11 +204,3 @@ app.get("/api/test", (req, res) => {
   res.json({ message: "Server is working!" });
 });
 
-const PORT = 3001;
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`🌐 Test at: http://localhost:${PORT}/api/test`);
-  console.log(`📝 Signup: POST http://localhost:${PORT}/api/signup`);
-  console.log(`🔐 Login: POST http://localhost:${PORT}/api/login`);
-  console.log(`👤 Profile: GET http://localhost:${PORT}/api/profile`);
-});
