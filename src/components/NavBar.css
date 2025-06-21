@@ -48,4 +48,28 @@ header .login-container{
   background-color: var(--header);
   padding: 1rem;
 }
+.nav-user{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.nav-user span{
+  background-color: transparent;
+
+}
+.nav-user button{
+  background-color: var(--secondary);
+  color: var(--text);
+  border: none;
+  border-radius: 8px;
+  margin-right: 2rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.nav-user button:hover {
+  background-color: var(--accent);
+}
 
